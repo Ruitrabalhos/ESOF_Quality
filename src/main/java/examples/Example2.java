@@ -10,7 +10,7 @@ public class Example2 {
 
     private void sleepInSynchronized() throws InterruptedException {
         synchronized (this) {
-            Thread.sleep(5000);
+            wait(5000);
         }
     }
 }
